@@ -1,0 +1,133 @@
+@media screen and (max-width: 568px) { 
+	html body {
+	    background-color: lightblue; 
+	    font-size: 75%;
+	}
+/*	body section.container {
+		border: solid 15px lightblue;
+		background-color: #FFFFFF; 
+		width: 90%;
+		height: 95%;
+		overflow-x: hidden;
+	}*/
+	body section.card-container {
+		height: 90%;
+		width: 85%;
+		margin: auto;
+		background-color: #FFFFFF;
+	}
+	body section.card {
+	    width: 90%;
+	    border: none;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	    padding: 0;
+	}
+}
+
+@media screen and (max-width: 375px) { 
+	html body {
+	    font-size: 70%;
+	}
+}
+
+@media screen and (max-width: 320px) { 
+	html body {
+	    font-size: 60%;
+	}
+}
+
+body {
+	font-family: Verdana,sans-serif;
+    line-height: 1.5;		
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;	
+}
+
+section.container, section.card-container {
+	position: absolute;
+	height: 100%;
+	width: 100%	
+}
+
+section.center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+section.card {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: solid 1px #e3e3e3;
+    -webkit-box-shadow: 2px 2px 3px 0 rgba(227,227,227,1);
+    -moz-box-shadow: 2px 2px 3px 0 rgba(227,227,227,1);
+    box-shadow: 2px 2px 3px 0 rgba(227,227,227,1);    
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+h1, h2 {
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+h3, h5 {
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h5 {
+	font-size: 1.0em;
+}
+
+a {
+	color: lightblue;
+}
+
+img {
+	height: 50px;
+}
+
+img.top-left {
+    position: absolute;
+    top: 5px;
+    left: 5px;	
+}
+
+img.top-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;	
+}
+
+img.bottom-left {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;	
+}
+
+img.bottom-right {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;	
+}
